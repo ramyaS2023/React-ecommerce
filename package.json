@@ -1,17 +1,17 @@
 {
-  "homepages": "https--ramyaS2023.github.io/react-E-Commerce",
+"homepage": "https://ramyaS2023.github.io/React-ecommerce",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "framer-motion": "^12.16.0",
